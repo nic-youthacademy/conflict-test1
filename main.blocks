@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="EW~jMcuI%b`!7[[:aq6(" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="7QuPI;@OwkifvK|q*,!H">mySprite</variable><variable type="KIND_SpriteKind" id=",BIHSltJ)l8bw[GNHAtq">Player</variable><variable type="KIND_SpriteKind" id="u:c?MUsh=VCTM,tlcH:m">Projectile</variable><variable type="KIND_SpriteKind" id="$iqdoP!z}]b?*)unZ(ev">Food</variable><variable type="KIND_SpriteKind" id="j+~#4/?#deIa-ZJ,{{mw">Enemy</variable></variables><block type="pxt-on-start" id="EW~jMcuI%b`!7[[:aq6(" x="0" y="0"><statement name="HANDLER"><block type="set_current_tilemap" id="MXKaAB=Km=E1OB,ILr^e"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="3Hdu6VqY@/62$|ZC]=d%"><field name="tilemap">tilemap`level3`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level3"}}</data></shadow></value><next><block type="variables_set" id="[O?JpvX3L]*DhcZf_GTq"><field name="VAR" id="7QuPI;@OwkifvK|q*,!H">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="93fdlkk9=Ej*n3gX{ytT"><value name="img"><shadow type="screen_image_picker" id="8Wb,Dh$pV=k;3RQX}W9p"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . 2 2 . . . . . . . . . 
+. . . . 2 2 2 2 2 2 2 2 2 2 2 . 
+. . . . 2 2 2 . . . 2 2 . 2 2 . 
+. . 2 2 . . . . . . . 2 . 2 . . 
+. 2 2 . 2 2 2 2 2 . . . 2 2 . . 
+. 2 2 2 . . . . . 2 2 2 2 . . . 
+. 2 . . . . . . . . . 2 2 2 . . 
+. 2 2 . . . . . . . 2 2 . 2 . . 
+. 2 2 2 2 2 2 2 2 2 . . . . 2 . 
+2 . . . . . . . . . . . . . 2 . 
+2 . . . . . . . . . . . . . 2 . 
+. 2 . . . . . . . . . . . 2 2 . 
+. . 2 2 2 2 . . . . . 2 2 2 2 . 
+. . . . . . 2 2 2 2 2 . . 2 2 . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"8Wb,Dh$pV=k;3RQX}W9p"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="g0Z?@1IA0mNoNQ:w#wqB"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
